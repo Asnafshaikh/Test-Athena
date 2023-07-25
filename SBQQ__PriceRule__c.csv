@@ -5,3 +5,4 @@ Guid,OwnerId,Name,SBQQ__Active__c,SBQQ__AdvancedCondition__c,SBQQ__ConditionsMet
 a02e3f12-118b-41de-8aff-88a24df4f5b0,,Set Approval Level,true,#N/A,All,#N/A,On Initialization;Before Calculate;On Calculate;After Calculate,100.0,#N/A,,Calculator,,#N/A
 ad90c07f-33fd-4a53-8e57-1b219ce1a251,,Rule 12345,true,1 AND 0,Custom,,On Calculate,1.0,,,Calculator,,
 f627f0fe-0c89-4f10-af60-e82a81171168,,Rule1 456789,true,,All,,On Calculate,,,,Configurator,,
+4fc510ab-1852-4475-bd6d-ce089b8d273d,,Test Rule Capitalization,false,,All,,On Calculate,,,,Calculator,,
