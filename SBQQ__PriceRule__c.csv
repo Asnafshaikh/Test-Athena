@@ -1,7 +1,83 @@
-Guid,OwnerId,Name,SBQQ__Active__c,SBQQ__AdvancedCondition__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__Product__c,SBQQ__TargetObject__c,Price_Action__c,Emailmanaged__c
-0a545c30-a189-4456-8d62-07d069fd3a86,,TestRule1234567,false,,All,,On Calculate,,,,Calculator,,
-4be36c97-35fd-4aef-b5cf-fd6cb3bc587e,,Rule2,false,,All,,On Calculate,,,,Configurator,,
-7627a26e-4ce2-49cd-9813-6dc812ebb6a9,,Test 123,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
-a02e3f12-118b-41de-8aff-88a24df4f5b0,,Set Approval Level,true,#N/A,All,#N/A,On Initialization;Before Calculate;On Calculate;After Calculate,100.0,#N/A,,Calculator,,#N/A
-ad90c07f-33fd-4a53-8e57-1b219ce1a251,,Rule 12345,true,1 AND 0,Custom,,On Calculate,1.0,,,Calculator,,
-f627f0fe-0c89-4f10-af60-e82a81171168,,Rule1 456789,true,,All,,On Calculate,,,,Configurator,,
+"Guid","Emailmanaged__c","Name","SBQQ__Active__c","SBQQ__AdvancedCondition__c","SBQQ__ConditionsMet__c","SBQQ__ConfiguratorEvaluationEvent__c","SBQQ__EvaluationEvent__c","SBQQ__EvaluationOrder__c","SBQQ__LookupObject__c","SBQQ__TargetObject__c"
+030a26df-f171-4410-8b19-41939509fd39,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+0438a20e-b508-49df-9b2e-fd2427174b30,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+0538a214-c7b6-456c-8c2e-f0c08f2d88a2,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+0a545c30-a189-4456-8d62-07d069fd3a86,"#N/A",TestRule1234567,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A","#N/A",Calculator,"#N/A","#N/A"
+0f222cca-8d9a-4e40-b3e7-768226ec418b,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+15a8f99d-2c60-48a9-afb5-e9936353cf7e,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+15fa7deb-bbc2-4417-91a9-7de1b528385a,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+1af959b5-8809-4aeb-b144-289d62a197ac,"#N/A",TestRule1,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Calculator
+24fcdf54-3fef-4629-99e0-6c71a1697029,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+26a9e5ab-1137-4cc4-9134-a6d9837881d7,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+27d927e5-e5fd-4d62-b934-14280820802d,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+291ab24c-41da-4fed-b667-87496b142cca,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+2aa1d8cd-1b76-4177-b439-d1f78f01c0b2,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+2af6205a-2322-4b07-9569-a329530fcc3e,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+2bd83031-f675-4e42-aa1b-c23e479452f6,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+2cfd9143-cdba-4949-8df3-32baa4fc5c67,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+2e19577e-be08-4e37-9fed-db2839495fb5,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+30c04c83-54d5-4538-a635-bf2419378c5e,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+3d1192af-9d3f-45ba-b355-c1510e9f94fa,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+3d1f5c0f-9c61-4e0d-a246-6935b685a3d6,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+3fbc7895-adac-461d-9c7c-23203cb75897,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+3fd0b0fb-1129-4293-a52e-d38919fe7b15,"#N/A",TestRule1,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Calculator
+44f277a7-fbd3-482c-8873-145a63075b4d,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+4be36c97-35fd-4aef-b5cf-fd6cb3bc587e,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A","#N/A",Configurator,"#N/A","#N/A"
+57221052-0172-46d5-9bbc-40468f0726e0,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+5777563a-0bd1-4a2f-80d1-f763e66589de,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+58463f5b-86ed-42a1-844d-947972d404b7,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+5da0f3ec-fd95-4614-a7e3-0730f17ae872,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+635d0d12-985b-4494-88d7-ff3b9a6cdf7e,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+65de33c6-1952-4a6a-a6e2-056d7e22114b,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+666c5133-7c76-435f-9f01-91915a9c4079,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+6a636569-785e-4e65-9403-99e009958582,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+6becb259-34e9-4fc7-9af4-b242adc3c416,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+6e11a504-2225-4c7e-8c3c-813dcb0dff66,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+6f891928-c19b-4209-b8ca-05cf8ffd9575,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+754ce137-98cd-4e3d-8484-1a16d343540f,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+75beb47f-f026-481d-b7d5-b8b2f241fc51,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+7627a26e-4ce2-49cd-9813-6dc812ebb6a9,"#N/A",Test 123,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A","#N/A",Configurator,"#N/A","#N/A"
+78046f97-71b0-4d5d-b675-b8886d9adbc9,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+7b4a4352-9c86-4352-b654-e00b9f1ad555,"#N/A",TestRule1,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Calculator
+7b622cd7-de5b-4e12-9b83-c97897acc073,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+7c50a90b-d254-4e81-834e-b29c7e6e8f91,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+7f921ffe-0b3f-47ae-a6d0-b14c0b9fbcd7,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+7fbb0e01-0a65-46b2-ba00-cd75e860fad8,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+843542af-9b19-4e01-ae82-7be517e3558f,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+87676a49-ed75-436c-af29-da0233045991,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+8cec496b-e8fa-493d-98a9-9bc8152de1c1,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+8e682321-532e-4202-8091-0d7e85abce8d,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+9bcd9ef8-ab75-492d-b5e6-a52465cd9f24,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+9d1ef082-9aa0-466b-8dbe-d54cb556a8b9,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+9e50c234-9e51-4483-b084-7cdbcb455fb0,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+a02e3f12-118b-41de-8aff-88a24df4f5b0,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A","#N/A",Calculator,"#N/A","#N/A"
+a1908c76-5e37-4f8b-b1f3-19ea5a429944,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+a288383a-b44e-4a75-99c2-c1b1b15a92fd,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+a8c2197e-abff-4fbb-b6d4-a140e6e5bb67,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+ad90c07f-33fd-4a53-8e57-1b219ce1a251,"#N/A",Rule 12345,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A","#N/A",Calculator,"#N/A","#N/A"
+af9d99f8-294b-43cb-b73e-9d3e5536a150,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+b1e12b23-eb4e-40ce-8c9c-fa6c0e630437,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+b212cc96-d0d5-4a25-ac11-30227d488d87,"#N/A",Rule 12345,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+b3b3e52e-ae76-4706-9585-6ab32145aa25,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+b3e33576-8885-4f0d-81d7-c339c1169825,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+b46d0662-edde-4fdb-8075-1d819fb2cf64,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+b49c9676-e0c8-48d2-b81b-42624d2103b7,"#N/A",Rule 12345,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+bca4025b-35aa-4fde-a975-9787edfaee37,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+bcf5ef2a-1324-48da-854d-254693ebaefc,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+c1bd6262-331a-4e07-81bc-0df3fe6aa241,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+c2d84073-5a5d-49f1-bd34-a033f54e538e,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+c6232978-440a-410f-9514-ad0cab978aea,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+cc5fe09c-8de7-403a-b803-d8519b0a0554,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+dcdcc71d-0542-427a-b2e5-05eb1268abc6,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+e17e29c2-99b1-41df-8ac6-06bd27222837,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+e1f7e5a5-9ae4-4065-bd03-ff5a465fae13,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+eaaa7bf8-f423-4ad0-8cb5-e50cbb4c5b43,"#N/A",TestRule1,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Calculator
+eb0ba758-f494-4f6c-bada-beb47f275391,"#N/A",Rule2,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+eb957cbc-cd9a-4cb7-948c-c2ddb89298ee,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+ec99a7d4-ee74-4c8f-8768-c271fdbdbbe3,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+ed52fc0e-a533-4ff2-b1b3-efef3e788bc0,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+eedae21b-3baf-4d3c-bf29-5c8ab5f8e506,"#N/A",Set Approval Level,true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+f28bd5b6-0da4-4589-b262-2b438835514e,"#N/A",Rule1,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+f627f0fe-0c89-4f10-af60-e82a81171168,"#N/A",Rule1 456789,true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A","#N/A",Configurator,"#N/A","#N/A"
+fa41baa4-df8f-476a-b19b-80d680febcb4,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+ff417bc3-f70c-490f-b113-b819b43a789d,"#N/A",Rule 3,true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
