@@ -1,13 +1,13 @@
-Guid,OwnerId,Name,SBQQ__Active__c,SBQQ__AdvancedCondition__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__Product__c,SBQQ__TargetObject__c,Price_Action__c,Emailmanaged__c
-0a545c30-a189-4456-8d62-07d069fd3a86,,TestRule1234567,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Calculator,,#N/A
-1b78c66d-98be-4f6f-823a-bfe59d2c53d3,,Test,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Calculator,,#N/A
-200ba563-0f14-4a2e-8bc7-4292563a4b4c,,TET SELECT,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
-22567fad-a9b9-4ce0-ac8d-1c98600ce651,,1235 test,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
-4be36c97-35fd-4aef-b5cf-fd6cb3bc587e,,Rule2,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
-4fc510ab-1852-4475-bd6d-ce089b8d273d,,Test Rule Capitalization,true,#N/A,Any,#N/A,On Calculate,#N/A,#N/A,,Calculator,,#N/A
-7627a26e-4ce2-49cd-9813-6dc812ebb6a9,,Test 123,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
-97dcdf13-b8f6-405e-986e-c7ec8bbb830c,,Test Cap test,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
-a02e3f12-118b-41de-8aff-88a24df4f5b0,,Set Approval Level,true,#N/A,All,#N/A,On Initialization;Before Calculate;On Calculate;After Calculate,100.0,#N/A,,Calculator,,#N/A
-ad90c07f-33fd-4a53-8e57-1b219ce1a251,,Rule 12345,true,1 AND 0,Custom,#N/A,On Calculate,1.0,#N/A,,Calculator,,#N/A
-b996af5f-9161-4a2b-bbf6-fc5d2bfa4204,,Test Merged Respected,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
-f627f0fe-0c89-4f10-af60-e82a81171168,,Rule1 456789,true,#N/A,All,#N/A,On Calculate,#N/A,#N/A,,Configurator,,#N/A
+"Guid","Emailmanaged__c","Name","Price_Action__c","SBQQ__Active__c","SBQQ__AdvancedCondition__c","SBQQ__ConditionsMet__c","SBQQ__ConfiguratorEvaluationEvent__c","SBQQ__EvaluationEvent__c","SBQQ__EvaluationOrder__c","SBQQ__LookupObject__c","SBQQ__TargetObject__c"
+50fd62c3-6cce-41a4-8c25-614831fc6fbe,"#N/A",Rule2,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+59eeec1d-6f4a-4cee-9f17-96812edc37a3,"#N/A",Set Approval Level,"#N/A",true,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,100.0,"#N/A",Calculator
+5df65818-4e6c-4311-af52-cdce9727674e,"#N/A",Test Merged Respected,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+5f635914-0d31-45d0-be98-0fdae2515c2d,"#N/A",Test Cap test,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+673ab1a0-928d-4ece-a03c-d3bde7a755b2,"#N/A",Rule 12345,"#N/A",true,1 AND 0,Custom,"#N/A",On Calculate,1.0,"#N/A",Calculator
+bb2c6183-34e4-40ef-8a08-966a5de6aaa3,"#N/A",Test 123,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+bbe7de05-9837-42d8-bd85-a71e32d3ccd4,"#N/A",Te,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Calculator
+bf6a7e8f-43e3-4200-9e8e-7b5039b89449,"#N/A",Rule1 456789,"#N/A",true,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+c29f63fa-146a-4ba8-9f2a-04ef8d72e8d1,"#N/A",1235 test,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+c36d564f-3591-412b-99af-57564be059a7,"#N/A",TET SELECT,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Configurator
+cd41aebe-4677-4bbc-a7f8-e3a61f8e291b,"#N/A",Test,"#N/A",false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A",Calculator
+db8b4ef1-5184-4020-8baf-172216dc607c,"#N/A",Test Rule Capitalization,"#N/A",true,"#N/A",Any,"#N/A",On Calculate,"#N/A","#N/A",Calculator
