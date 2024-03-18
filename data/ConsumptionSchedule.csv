@@ -1,0 +1,14 @@
+Guid,Name,IsActive,Description,BillingTerm,BillingTermUnit,Type,UnitOfMeasure,RatingMethod,MatchingAttribute,SBQQ__Category__c
+ed805e2e-3c98-4c9d-85b9-1a1017f23c04,UDCI Ingested Test,true,#N/A,1,Month,Range,GB,Tier,#N/A,Rates
+7065abda-60fb-4e0e-aae8-3900b0e285a5,UDCI Ingested GB Usage,false,#N/A,1,Month,Range,GB,Tier,UDCI-GB-2019,Rates
+2fc9687b-645c-4c43-a3c1-8e41a4d619d3,UDCI Ingested MB Usage (Slab Pricing),true,#N/A,1,Month,Slab,MB,Tier,UDCI-MB-2019,Rates
+7a766f04-1293-4e47-821e-5d70153c742b,UDCI Ingested GB Usage,false,#N/A,1,Month,Range,GB,Tier,UDCI-GB-2019,Rates
+c538935e-2ba3-4fa4-b17c-1e68cfe96ad1,UDCI Ingested TB Usage (Flat Fee over 2 TB),false,#N/A,1,Month,Slab,TB,Tier,UDCI-TB-2019,Rates
+d67426bd-3b8c-47d8-ab12-db1ac97ed414,UDCI Ingested TB Usage (Flat Fee over 2 TB),true,#N/A,1,Month,Slab,TB,Tier,UDCI-TB-2019,Rates
+e50ff389-3058-4f30-89a0-29549805893f,UDCI Ingested Test,false,#N/A,1,Month,Range,GB,Tier,#N/A,Rates
+fbef62c0-598e-4a6c-a29e-938d3bc72219,Data Usage,true,#N/A,1,Month,Slab,GB,Tier,DATA-GB-PROCESSED,Rates
+152f840d-13f3-4a88-8d48-4addee9ff126,UDCI Ingested MB Usage (Slab Pricing),false,#N/A,1,Month,Slab,MB,Tier,UDCI-MB-2019,Rates
+0ff21bd5-d6ba-4ab8-8f68-b8a646a8491a,UDCI Ingested GB Usage,true,#N/A,1,Month,Range,GB,Tier,UDCI-GB-2019,Rates
+0f0918f9-a0ba-4745-b9a8-79e840c63721,UDCI Ingested Test,false,#N/A,1,Month,Range,GB,Tier,#N/A,Rates
+95adb519-dbae-4729-add4-745dc218febe,UDCI Ingested MB Usage (Slab Pricing),false,#N/A,1,Month,Slab,MB,Tier,UDCI-MB-2019,Rates
+c1794291-2ef5-4fdc-ad89-f01768ee0aaa,UDCI Ingested TB Usage (Flat Fee over 2 TB),false,#N/A,1,Month,Slab,TB,Tier,UDCI-TB-2019,Rates
