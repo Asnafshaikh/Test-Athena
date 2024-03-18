@@ -1,0 +1,271 @@
+Guid,Name,SBQQ__CustomSource__c,SBQQ__FontFamily__c,SBQQ__FontSize__c,SBQQ__Markup__c,SBQQ__RawMarkup__c,SBQQ__TableStyle__c,SBQQ__TextColor__c,SBQQ__Type__c
+3c5a4202-2c86-4928-96e9-6fa26b95d547,Header,#N/A,Helvetica,8.0,#N/A,"<table style=""border-collapse: collapse;"" width=""100%"">
+	<tbody>
+		<tr>
+			<td style=""border-bottom: solid; border-color: #{!template.Company_Primary_Color__c}; border-bottom-width: 2px;"" width=""66%"">
+			<p><img height=""{!template.Company_Image_Height__c}"" src=""{!template.Company_Image_URL__c}"" width=""{!template.Company_Image_Width__c}"" /></p>
+
+			<p><strong>{!template.SBQQ__CompanySlogan__c}</strong></p>
+
+			<p>{!template.SBQQ__CompanyStreet__c}</p>
+
+			<p>{!template.SBQQ__CompanyCity__c}, {!template.SBQQ__CompanyState__c} {!template.SBQQ__CompanyPostalCode__c}</p>
+
+			<p>Phone: {!template.SBQQ__CompanyPhone__c}</p>
+
+			<p>Email: {!template.SBQQ__CompanyEmail__c}</p>
+
+			<p>&#160;</p>
+			</td>
+			<td style=""border-bottom: solid; border-color: #{!template.Company_Primary_Color__c}; border-bottom-width: 2px;"" width=""33%"">
+			<p style=""font-size: 16pt; color: #{!template.Company_Primary_Color__c}; text-align: right;"">{!template.Name} {!quote.Name}-{!document.SBQQ__Version__c}</p>
+
+			<table width=""100%"">
+				<tbody>
+					<tr>
+						<td width=""50%"">&#160;</td>
+						<td width=""50%"">&#160;</td>
+					</tr>
+					<tr>
+						<td width=""50%"">&#160;</td>
+						<td width=""50%"">&#160;</td>
+					</tr>
+					<tr>
+						<td width=""50%""><strong>Date:</strong></td>
+						<td width=""50%"">{!quote.Today__c}</td>
+					</tr>
+					<tr>
+						<td width=""50%""><strong>Expires On:</strong></td>
+						<td width=""50%"">{!quote.SBQQ__ExpirationDate__c}</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,000000,HTML
+dd2fdfc6-bcec-4cb7-8ecd-87f769d6f37e,Top,#N/A,#N/A,#N/A,<p>Top</p>,TOP,Standard,#N/A,HTML
+079a21cb-6395-4cb7-9d5d-f31671254afd,Terms and Conditions,#N/A,Helvetica,8.0,#N/A,#N/A,Standard,000000,Quote Terms
+f03ac352-3edd-4d80-8fea-4f75a672d44b,Lines,#N/A,#N/A,#N/A,#N/A,#N/A,Standard,#N/A,Line Items
+f2d886e2-6090-48d9-a462-44e979cfaa85,Cover Page,#N/A,Helvetica,8.0,#N/A,"<table width=""100%"">
+	<tbody>
+		<tr>
+			<td style=""padding-bottom:5px; border-bottom:solid; border-color:#{!template.Company_Primary_Color__c}; border-bottom-width: 2px;"" width=""100%"">
+			<p><img height=""{!template.Company_Image_Height__c}"" src=""{!template.Company_Image_URL__c}"" width=""{!template.Company_Image_Width__c}"" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""wdith:100%; height:216px;"">
+			<p>&#160;</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""wdith:100%;"">
+			<p style=""font-size: 24pt; color: #{!template.Company_Primary_Color__c}; text-align:center;"">Proposal For</p>
+
+			<p style=""font-size: 24pt; color: #{!template.Company_Primary_Color__c}; text-align:center;"">{!quote.SBQQ__BillingName__c}</p>
+			</td>
+		</tr>
+		<tr>
+			<td style=""wdith:100%; height:288px; border-bottom:solid; border-color:#{!template.Company_Primary_Color__c}; border-bottom-width: 2px;"">
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<tbody>
+		<tr>
+			<td width=""66%"">
+			<p style=""font-size: 14pt; color: #{!template.Company_Primary_Color__c};"">Prepared For:</p>
+
+			<p>{!quote.SBQQ__BillingName__c}</p>
+
+			<p>{!quote.SBQQ__BillingStreet__c}</p>
+
+			<p>{!quote.SBQQ__BillingCity__c}, {!quote.SBQQ__BillingState__c} {!quote.SBQQ__BillingPostalCode__c}</p>
+
+			<p>{!quote.SBQQ__BillingCountry__c}</p>
+			</td>
+			<td width=""34%"">
+			<p style=""font-size: 14pt; color: #{!template.Company_Primary_Color__c};"">Prepared By:</p>
+
+			<p>{!salesRep.Name}</p>
+
+			<p>{!salesRep.Title}</p>
+
+			<p>{!salesRep.Email}</p>
+
+			<p>{!salesRep.Phone}</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,000000,HTML
+2d9e9966-575c-4be8-bf3b-355903511d5a,Cover Letter,#N/A,Helvetica,8.0,#N/A,"<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<table style=""border-collapse: collapse;"" width=""100%"">
+	<tbody>
+		<tr>
+			<td width=""80%"">
+			<p>{!quote.SBQQ__Introduction__c}</p>
+			</td>
+			<td width=""20%"">
+			<p>&#160;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,000000,HTML
+2d8d1170-eb4c-43ed-a6a2-140a8805771c,Terms and Conditions Header,#N/A,Helvetica,8.0,#N/A,"<p>&#160;</p>
+
+<p style=""font-size: 16pt; color: #{!template.Company_Primary_Color__c};"">Terms and Conditions</p>",Standard,000000,HTML
+e1859756-7144-4f6b-abe5-ba3477ed52d2,Standard Line Items,#N/A,Helvetica,8.0,#N/A,#N/A,Standard,000000,Line Items
+234e9e61-73c7-455e-8f66-852d78c1d013,Quote Notes,#N/A,Helvetica,8.0,#N/A,"<p>&#160;</p>
+
+<table style=""width:100; border:solid; border-width:1px;"">
+	<tbody>
+		<tr>
+			<td style=""padding:5px;"">
+			<p><strong>{!template.Name} Notes</strong></p>
+
+			<p>{!quote.SBQQ__Notes__c}</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,000000,HTML
+18db8c8c-04fc-4217-8138-286357107e8e,Signature Block,#N/A,Helvetica,8.0,#N/A,"<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>Please fax a signed copy of this SO and other referenced documents to {!template.SBQQ__CompanyFax__c} and mail two sets of originals to:</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>{!template.SBQQ__CompanyName__c}</p>
+
+<p>Attn: Sales Contracts</p>
+
+<p>{!template.SBQQ__CompanyStreet__c}</p>
+
+<p>{!template.SBQQ__CompanyCity__c}, {!template.SBQQ__CompanyState__c} {!template.SBQQ__CompanyPostalCode__c}</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<p>IN WITNESS WHEREOF, the Parties have caused this Agreement to be executed and delivered by their respective authorized representatives whose signatures appear below.</p>
+
+<p>&#160;</p>
+
+<p>&#160;</p>
+
+<table style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td style=""width:5%;"">&#160;</td>
+			<td align=""center"" style=""width:40%; font-size: 16pt; color: #{!template.Company_Primary_Color__c};"">{!template.SBQQ__CompanyName__c}</td>
+			<td style=""width:10%;"">&#160;</td>
+			<td align=""center"" style=""width:40%; font-size: 16pt; color: #{!template.Company_Primary_Color__c};"">{!quote.SBQQ__BillingName__c}</td>
+			<td style=""width:5%;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style=""width:100%;"">
+	<tbody>
+		<tr>
+			<td style=""width:5%;"">&#160;</td>
+			<td style=""width:10%;"">&#160;</td>
+			<td style=""width:30%;"">&#160;</td>
+			<td style=""width:10%;"">&#160;</td>
+			<td style=""width:10%;"">&#160;</td>
+			<td style=""width:30%;"">&#160;</td>
+			<td style=""width:5%;"">&#160;</td>
+		</tr>
+		<tr>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Signature</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Signature</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+		</tr>
+		<tr>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Printed Name</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Printed Name</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+		</tr>
+		<tr>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Title</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Title</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+		</tr>
+		<tr>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Date</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">&#160;</td>
+			<td style=""padding-top: 10px; width:10%;"">Date</td>
+			<td style=""padding-top: 10px; width:30%; border-bottom:solid; border-bottom-width:1pt; border-bottom-color:#000000;"">&#160;</td>
+			<td style=""padding-top: 10px; width:5%;"">&#160;</td>
+		</tr>
+	</tbody>
+</table>",Standard,000000,HTML
+5d817306-d563-445d-9960-2aef44f081a0,Prepared For / By,#N/A,Helvetica,8.0,#N/A,"<p>&#160;</p>
+
+<table width=""100%"">
+	<tbody>
+		<tr>
+			<td width=""66%"">
+			<p style=""font-size: 14pt; color: #{!template.Company_Primary_Color__c};"">Prepared For:</p>
+
+			<p>{!quote.SBQQ__BillingName__c}</p>
+
+			<p>{!quote.SBQQ__BillingStreet__c}</p>
+
+			<p>{!quote.SBQQ__BillingCity__c}, {!quote.SBQQ__BillingState__c} {!quote.SBQQ__BillingPostalCode__c}</p>
+
+			<p>{!quote.SBQQ__BillingCountry__c}</p>
+			</td>
+			<td width=""34%"">
+			<p style=""font-size: 14pt; color: #{!template.Company_Primary_Color__c};"">Prepared By:</p>
+
+			<p>{!salesRep.Name}</p>
+
+			<p>{!salesRep.Title}</p>
+
+			<p>{!salesRep.Email}</p>
+
+			<p>{!salesRep.Phone}</p>
+			</td>
+		</tr>
+	</tbody>
+</table>",Standard,000000,HTML
+16a1a043-af60-4526-ab67-b29db4f33ed3,Bottom,#N/A,#N/A,#N/A,#N/A,#N/A,Standard,#N/A,HTML
