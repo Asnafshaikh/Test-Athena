@@ -1,0 +1,4 @@
+Guid,Name,SBQQ__Active__c,SBQQ__AdvancedCondition__c,SBQQ__ConditionsMet__c,SBQQ__ConfiguratorEvaluationEvent__c,SBQQ__EvaluationEvent__c,SBQQ__EvaluationOrder__c,SBQQ__LookupObject__c,SBQQ__TargetObject__c,Emailmanaged__c
+6168434c-b714-4a13-acb4-9345d2dec55d,Test Rule Capitalization,true,#N/A,Any,#N/A,On Calculate,#N/A,#N/A,Calculator,#N/A
+8dbbd331-7d9a-4aa8-ae75-e7f1957231bc,1235 test new,true,#N/A,All,#N/A,On Calculate,#N/A,#N/A,Configurator,#N/A
+793beffb-2558-4f72-9b84-6b06297d4ad3,Test,false,#N/A,All,#N/A,On Calculate,#N/A,#N/A,Calculator,#N/A
