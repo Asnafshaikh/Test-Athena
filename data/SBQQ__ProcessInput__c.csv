@@ -1,0 +1,6 @@
+Guid,Name,SBQQ__QuoteProcess__c,SBQQ__Active__c,SBQQ__BinaryChoice__c,SBQQ__ConditionsMet__c,SBQQ__DefaultField__c,SBQQ__DisplayOrder__c,SBQQ__InputField__c,SBQQ__IntegerInput__c,SBQQ__Label__c,SBQQ__Operator__c,SBQQ__ProductField__c
+1d2eac0d-2479-4f8e-b7b0-e22e340e0cba,Input 2,af332ae3-fe1d-445f-82ad-df8fe0cf140b,false,#N/A,All,#N/A,1.0,BinaryChoice__c,#N/A,Input 2,#N/A,#N/A
+74cd9ed5-f47d-4637-bf37-f36a0dd27e21,Solution,22b3fb5e-5463-46bd-8744-38ee2dab188a,true,#N/A,All,#N/A,1.0,Solution__c,#N/A,What are you looking for?,equals,Guided_Selling__c
+a02eb004-c45d-46b0-92f7-f24c760a1055,Segment,22b3fb5e-5463-46bd-8744-38ee2dab188a,true,#N/A,All,#N/A,2.0,Business_Segment__c,#N/A,Business Segment?,#N/A,#N/A
+f20c84a4-0d50-45d9-a17e-0e077112a043,Input 1,af332ae3-fe1d-445f-82ad-df8fe0cf140b,false,#N/A,All,#N/A,1.0,IntegerInput__c,#N/A,Input 1,#N/A,#N/A
+117fcf06-0c87-4fcf-a2d5-d0e864ecfca5,Input 3,af332ae3-fe1d-445f-82ad-df8fe0cf140b,false,#N/A,All,#N/A,1.0,BinaryChoice__c,#N/A,Input 3,#N/A,#N/A
