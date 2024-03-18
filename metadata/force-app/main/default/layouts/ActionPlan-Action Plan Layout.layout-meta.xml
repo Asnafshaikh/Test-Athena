@@ -18,10 +18,6 @@
                 <behavior>Edit</behavior>
                 <field>IsUsingHolidayHours</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>hello__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
