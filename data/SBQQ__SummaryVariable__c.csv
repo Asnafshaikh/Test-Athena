@@ -3,3 +3,4 @@ Guid,Name,SBQQ__AggregateField__c,SBQQ__AggregateFunction__c,SBQQ__CombineWith__
 f74930c8-9334-4a31-bf1b-f17ebd54873a,Sum of small turbines,Quantity,Count,#N/A,#N/A,#N/A,Product Code,A-100,equals,Quote,Product Option,#N/A
 24921220-93c7-4676-98e4-5c1b310d40d6,Sum or large turbines,Quantity,Sum,#N/A,#N/A,#N/A,Product Code,A-1000,equals,Quote,Product Option,#N/A
 15875b77-691b-4c0a-92f7-22da60a8a8e1,NEW VARIABLE,Quantity,Count,#N/A,#N/A,#N/A,#N/A,#N/A,#N/A,Quote,Product Option,#N/A
+ad751482-b53c-4118-943f-2681a5e8e7b7,Sum of INTELLIGENT OPTIMIZATION SERVICE LICENSE,Quantity,Sum,#N/A,#N/A,#N/A,Product Code,L-100,equals,Quote,Quote Line,#N/A
