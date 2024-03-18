@@ -1,1 +1,0 @@
-trigger TestTrigger15 on Account (after insert){}
