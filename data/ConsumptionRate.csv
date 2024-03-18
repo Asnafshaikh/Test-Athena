@@ -1,0 +1,16 @@
+Guid,ConsumptionScheduleId,Description,ProcessingOrder,PricingMethod,LowerBound,UpperBound,Price
+a7d63dfe-49d6-4061-86d4-f36573764c8a,fbef62c0-598e-4a6c-a29e-938d3bc72219,#N/A,3,PerUnit,16,#N/A,3.0
+f59595b1-0cab-4fea-855f-5938c25c5196,d67426bd-3b8c-47d8-ab12-db1ac97ed414,#N/A,1,PerUnit,0,3,45000.0
+05829c5b-79f8-4523-9104-e782a4d4713f,2fc9687b-645c-4c43-a3c1-8e41a4d619d3,#N/A,4,PerUnit,301,#N/A,10.0
+b4e2dbf2-01a6-4abc-a545-c8d64b2e25cb,2fc9687b-645c-4c43-a3c1-8e41a4d619d3,#N/A,1,PerUnit,1,101,12.0
+94ad85a4-3a4b-486b-be39-60ac72a8d8fd,fbef62c0-598e-4a6c-a29e-938d3bc72219,#N/A,2,PerUnit,11,16,4.0
+16f44fe2-16ab-46ba-8568-5e1749d9f61d,fbef62c0-598e-4a6c-a29e-938d3bc72219,Free Tier,1,PerUnit,0,11,0.0
+c3e8035f-1612-43a8-af6b-3d3440bd4d86,2fc9687b-645c-4c43-a3c1-8e41a4d619d3,#N/A,3,PerUnit,201,301,10.5
+64ee7efd-3fc0-4517-8562-94c95ac2b1f6,d67426bd-3b8c-47d8-ab12-db1ac97ed414,#N/A,2,FlatFee,3,#N/A,50000.0
+8610885b-7d59-429e-b9ac-ec4ce56b2bfb,0ff21bd5-d6ba-4ab8-8f68-b8a646a8491a,#N/A,1,PerUnit,1,11,150.0
+3c01568a-4fad-4546-ab9c-7aa50872a30c,0ff21bd5-d6ba-4ab8-8f68-b8a646a8491a,#N/A,4,PerUnit,51,101,105.0
+16e59b33-66eb-452e-94fd-4f57e8a02764,0ff21bd5-d6ba-4ab8-8f68-b8a646a8491a,#N/A,5,PerUnit,101,#N/A,100.0
+84718bdf-8341-4e43-bc74-415cb38aa151,ed805e2e-3c98-4c9d-85b9-1a1017f23c04,#N/A,1,PerUnit,1,#N/A,1.0
+f0e3c76a-cdea-408b-9196-90fccc96904f,0ff21bd5-d6ba-4ab8-8f68-b8a646a8491a,#N/A,2,PerUnit,11,21,135.0
+ea29832c-a07f-41c2-b3f6-0d8aae1c153c,0ff21bd5-d6ba-4ab8-8f68-b8a646a8491a,#N/A,3,PerUnit,21,51,120.0
+38169641-1eaa-4a85-ad49-c835f0df581d,2fc9687b-645c-4c43-a3c1-8e41a4d619d3,#N/A,2,PerUnit,101,201,11.0
