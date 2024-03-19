@@ -1,0 +1,8 @@
+Guid,Name,DeveloperName,Type,Email,DoesSendEmailToMembers,DoesIncludeBosses
+68058e0e-d103-413a-86e0-a5db0b438b02,Ομάδα Группа グループ 1234567890 !@#$%^&*()_,X1234567890,Regular,#N/A,false,true
+46daa871-d2b4-431e-9138-ab0951ff3c10,nested group,nested_group,Regular,#N/A,false,true
+84967c3a-f8bf-40e4-b16f-3deca852d4a0,Group AL New,Group_AL_New,Regular,#N/A,false,true
+e438f023-9803-4585-8e95-2ba15ef74722,Group Al New 2,Group_Al_New_2,Regular,#N/A,false,true
+a495ed1a-ddf3-4651-b1ab-7c580b071f52,group with users,group_with,Regular,#N/A,false,true
+3950bf04-2b12-4c58-bdea-c80bec6118da,All Roles Group 0Zu3t00000097hn,MC_0Zu3t00000097hnCAA,ManagedContentSpaceRole,#N/A,false,false
+cadba688-eba1-42ca-8b5e-cf9296993d9e,Experience Admin,MC_0Zu3t00000097hnCAA_0aJ3t000000GoiDEAS,ManagedContentSpaceRole,#N/A,false,false
