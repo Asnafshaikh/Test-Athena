@@ -1,0 +1,3 @@
+Guid,AccountId,Name,Description,StageName,Amount,Probability,CloseDate,Type,NextStep,LeadSource,ForecastCategoryName,SBQQ__Contracted__c,SBQQ__CreateContractedPrices__c,SBQQ__OrderGroupID__c,SBQQ__Ordered__c,SBQQ__QuotePricebookId__c,SBQQ__Renewal__c,picklist_jj__c,long_text__c,URL__c,New_Checkbox__c,What_Bear_is_Best__c
+8b53864e-0a1f-4a82-b69e-635e944d8087,4afef6b0-7ff4-4a84-b72b-e39e7849ad04,Google,#N/A,Qualification,#N/A,80.0,2024-02-22,#N/A,#N/A,#N/A,Pipeline,false,false,#N/A,false,#N/A,false,Not Started,#N/A,#N/A,true,#N/A
+d3b00dc9-e444-423e-a5ab-30533c945378,fe7ac7e2-f5c8-4802-b2a9-cc7bba728a2c,Test 1,#N/A,Needs Analysis,#N/A,90.0,2024-02-02,Existing Business,#N/A,#N/A,Pipeline,false,false,#N/A,false,#N/A,false,Not Started,#N/A,#N/A,true,#N/A
